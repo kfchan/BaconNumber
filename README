@@ -1,0 +1,16 @@
+My Kevin Bacon Number program!
+Fall 2013
+
+Description on Kevin Bacon Number: https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon
+To run: run BaconNumber.java with arguments: imdb file, <Actor Center> (optional) 
+
+List of commands: 
+1. find <name>: Find the shortest path from the current center to <name>. 
+2. recenter <name>: Change the center to the given name if it exists in the database (otherwise, leave the center unchanged.)
+3. avgdist: Calculate the average Bacon Number for the given center among all connected actor nodes. 
+4. allcenter: Calculate the average Bacon Number for all entries in the database. That is, recenter on every single actor and compute their Bacon number. NOTE: this can take a very (very) long time on larger data sets.
+5. table: print out a table of the counts of bacon numbers for the given center from 0 up to the longest.
+6. movies <name>: list all outbound edges from a given name.
+7. longest: print out one of the longest paths to the center.
+8. most: list the actor with the most film credits (i.e. the actor vertex with the highest degree).
+9. findall: iterate through all actors and actresses and perform a find operation on them.
